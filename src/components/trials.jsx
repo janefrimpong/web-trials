@@ -2,6 +2,7 @@ import pic from "../assets/kevinRushProfile.jpg"
 const Page=()=>{
     return (
         <div className="space-x-2">
+          
                   
                   <div className="space-x-4 text-right text-white py-4 text-2xl px-3">
                     <a  className="rounded-full hover:bg-cyan-200 px-2  hover:text-black"  href="a">Home</a>
@@ -14,8 +15,8 @@ const Page=()=>{
                   <div className="text-cyan-200 text-6xl py-20 font-serif">
                     Web
                     <p> Development</p>
-                    <p className="lg:w-1/3 lg:p-8">
-                        <img className=" w-[400px]  rounded-full  p-2  flex items-center justify-center " src={pic}/>
+                    <p className="lg:w-1/2 lg:p-8">
+                        <img className=" w-[400px]  rounded-full  p-2  float-right " src={pic}/>
                     </p>
                     <p className="text-white text-5xl py-3">Agency</p>
                     <p className=" text-white text-3xl py-3">We offer the best 
@@ -25,6 +26,7 @@ const Page=()=>{
                     </button>
             
                   </div>
+                  
           
         
             
